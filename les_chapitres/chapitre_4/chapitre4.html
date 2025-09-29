@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page chapitre 1</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+    
+    <br></br>
+    <br></br>
+
+    <fieldset>
+    <legend>Name</legend>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" aria-label="Nom complet" required>
+    </fieldset>
+
+    <br></br>
+
+    <fieldset>
+    <legend>Email</legend>
+    <label for="email">E-mail :</label>
+    <input type="email" id="email" name="email" aria-label="Adresse e-mail" required>
+    </fieldset>
+    
+    <br></br>
+    
+    <fieldset>
+    <legend>Phone Number</legend>
+    <label for="tel">Téléphone :</label>
+    <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" title="10 chiffres attendus" aria-label="Numéro de téléphone">
+    </fieldset>
+
+    <br></br>
+
+    <fieldset>
+    <legend>Message</legend>
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    </fieldset>
+
+    <button type="submit">Envoyer</button>
+    
+    </form>
+  </body>
+</html>
